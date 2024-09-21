@@ -11,6 +11,8 @@
 			"version": "8"
 		},
 		// TO DO - move these features from local to their projects, and publish them
-		"./local-features/demo": {}
+		"./local-features/demo": {
+			"param1": "abc123"
+		}
 	}
 }
