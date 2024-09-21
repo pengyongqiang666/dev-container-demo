@@ -3,14 +3,8 @@
 {
 	"name": "demo image build and push",
 
-	// fix error "unsupported MIME type for compression: application/vnd.in-toto+json"
-	// see: https://github.com/devcontainers/ci/issues/191
-	// use Dockerfile instead of ""image": "mcr.microsoft.com/devcontainers/base:bullseye","
-	//"image": "mcr.microsoft.com/devcontainers/base:bullseye",
-	"build": {
-		"dockerfile": "./Dockerfile",
-		"context": "."
-	},
+	"image": "mcr.microsoft.com/devcontainers/base:bullseye",
+
 	// For more info about dev container Features see https://containers.dev/features
 	"features": {
 		"ghcr.io/devcontainers/features/java:1": {
