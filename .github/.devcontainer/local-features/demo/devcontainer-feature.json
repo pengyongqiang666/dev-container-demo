@@ -1,0 +1,21 @@
+{
+  "id": "demo",
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "this is a demo feature",
+  "options": {
+    "param1": {
+      "type": "string",
+      "proposals": [
+        "hello",
+        "hello1",
+        "hello2"
+      ],
+      "default": "hello",
+      "description": "Select or enter a param."
+    }
+  },
+  "installsAfter": [
+    "ghcr.io/devcontainers/features/common-utils"
+  ]
+}
