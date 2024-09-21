@@ -2,4 +2,5 @@
 
 set -eux
 
-echo "param1: ${param1}" > /tmp/demo.txt
+demo_param1="${param1:-"test"}"
+echo "demo_param1: ${demo_param1}" > /tmp/demo.txt
