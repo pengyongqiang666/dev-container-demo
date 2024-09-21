@@ -3,6 +3,5 @@
 //	name of the dev container
 	"name": "idea-demo",
 //	Or use a Dockerfile here, more info: https://containers.dev/guide/dockerfile
-	"image":  "jb-devcontainer-java_8:latest"
+	"image":  "ghcr.io/pengyongqiang666/dev-container-demo:latest"
 }
-
